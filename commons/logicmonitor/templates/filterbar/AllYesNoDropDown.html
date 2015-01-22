@@ -1,0 +1,26 @@
+<div class="filter-row">
+    <div class="styled-radio">
+        <input type="radio" id="{{prefix}}filter-all" data-filter-name="all" {{#ifequal selected "all"}}checked{{/ifequal}}
+            data-filter-text="All" name="{{prefix}}filter-radio-allyesno">
+        <label for="{{prefix}}filter-all"></label>
+    </div>
+    <label for="{{prefix}}filter-all" class="radio-label">All</label>
+</div>
+
+<div class="filter-row">
+    <div class="styled-radio">
+        <input type="radio" id="{{prefix}}filter-yes" data-filter-name="yes" {{#ifequal selected "yes"}}checked{{/ifequal}}
+            data-filter-text="Yes" name="{{prefix}}filter-radio-allyesno">
+        <label for="{{prefix}}filter-yes"></label>
+    </div>
+    <label for="{{prefix}}filter-yes" class="radio-label">Yes</label>
+</div>
+
+<div class="filter-row">
+    <div class="styled-radio">
+        <input type="radio" id="{{prefix}}filter-no" data-filter-name="no" {{#ifequal selected "no"}}checked{{/ifequal}}
+            data-filter-text="No" name="{{prefix}}filter-radio-allyesno">
+        <label for="{{prefix}}filter-no"></label>
+    </div>
+    <label for="{{prefix}}filter-no" class="radio-label">No</label>
+</div>

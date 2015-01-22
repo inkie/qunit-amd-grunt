@@ -1,0 +1,63 @@
+<thead>
+    <tr>
+        <th class="col-expand-btn"></th>
+        <th>
+            ID
+        </th>
+        <th>
+            Name
+        </th>
+        <th class="center">
+            Embed
+        </th>
+    </tr>
+</thead>
+<tbody>
+    {{#each this}}
+    <tr data-id="{{id}}"  class="data-row">
+        <td class="col-expand-btn"><span class="gray-arrow"></span></td>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td class="col-embedded-table center">
+            <div class="embed-handle">
+                <button class="lm-button small-small gray animate"><span class="icons16 config-gray"></span></button>
+            </div>
+        </td>
+    </tr>
+    <tr class="expanded-panel">
+        <td class="col-expand-btn"></td>
+        <td data-id="{{id}}" class="col-expand-content" colspan="3">
+            <ul class="expanded-con vertical">
+                <li>
+                    <label class="item-label">
+                        Status
+                    </label>
+                    <div class="item-value">
+                        {{status}}
+                    </div>
+                </li>
+                <li>
+                    <label class="item-label">
+                        Description
+                    </label>
+                    <div class="item-value">
+                        {{description}}
+                    </div>
+                </li>
+                <li>
+                    <label class="item-label">
+                        Datasource
+                    </label>
+                    <div class="item-value">
+                        {{datasource}}
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr class="embedded-panel">
+        <td class="col-expand-btn"></td>
+        <td colspan="3"><div class="embedded-con"></div></td>
+    </tr>
+    {{/each}}
+</tbody>

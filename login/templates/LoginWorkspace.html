@@ -1,0 +1,35 @@
+{{#if activateSuccess}}
+<div style="margin:auto;width: 350px; text-align:center;background: #81ae49;border-radius: 5px;padding: 10px 0;font-size:14px;font-weight: bold;color:white;">
+    Your account is activated, you can log in now!
+</div>
+{{/if}}
+<div class="signin-content">
+    <div class="signin-logo" style="margin-bottom: 0;"></div>
+    <div class="section-box">
+        <div class="section-content">
+            <div class="section-row">
+                <label>Username or Email</label>
+                <input type="text" name="username" tabindex="1">
+            </div>
+            <div class="section-row">
+                <label>Password <a href="password.html">I forgot my password!</a>
+                </label>
+                <input type="password" name="password" tabindex="2">
+            </div>
+            <div class="section-row clearfix" style="height: 35px; line-height: 35px;">
+                <div class="styled-checkbox">
+                    <input type="checkbox" id="rem" name="rem">
+                    <label for="rem"></label>
+                </div>
+                <div class="checkbox-label" for="rem">Remember me</div>
+
+                <a href="#" class="btn-login lm-button purple right" tabindex="3">Log in</a>
+            </div>
+            <div class="section-row">
+                <span>Not a member?</span> <a href="signup.html" style="font-size: 16px;">Sign up</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{> commons/logicmonitor/foot}}
+

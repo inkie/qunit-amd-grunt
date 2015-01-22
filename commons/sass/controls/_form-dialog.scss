@@ -1,0 +1,12 @@
+@import "variable";
+
+.lm-form-dialog {
+    .dialog-foot {
+        a, button {
+            &.btn-delete {
+                margin-top: 10px;
+                float: left;
+            }
+        }
+    }
+}

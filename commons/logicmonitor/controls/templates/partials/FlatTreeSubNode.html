@@ -1,0 +1,17 @@
+{{#each this}}
+<li class="{{nodeType}} sub" data-name="{{name}}" data-id="{{id}}" data-node-type="{{nodeType}}"
+    data-data-type="{{dataType}}"  data-mark="{{mark}}"
+    style="padding-left:{{multiply 6 (plus ancestorsLength 5)  }}px;" title="{{name}}">
+    <svg width="20px" height="20px" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position: absolute;left: {{plus 13 (multiply ancestorsLength 6) }}px;">
+        <path d="M5 0 C 5 12, 5 12, 15 12" stroke="rgb(92,92,92)" fill="transparent" stroke-width="3"></path>
+        <polygon points="12,9 12,15 18,12" fill="rgb(92,92,92)" stroke="rgb(92,92,92)"></polygon>
+    </svg>
+    {{#if icons.left}}
+    <span class="icons24 {{icons.left}}"></span>
+    {{/if}}
+    <span class="node-name">{{name}}</span>
+    {{#if icons.middle}}
+    <span class="icons24 {{icons.middle}}"></span>
+    {{/if}}
+</li>
+{{/each}}

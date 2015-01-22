@@ -1,0 +1,35 @@
+
+<div class="section-box validationEngineContainer">
+    <h4 class="section-header">
+        <span class="icons16 sectionArrow-blue"></span>
+        <a href="javascript:;" class="toggle-link">Manage you profile here</a>
+    </h4>
+    <div class="section-content">
+        <div class="section-row">
+            <label>User name
+                <a href="#change-password" style="margin-left:10px;">Change password</a>
+            </label>
+            <input type="text" name="username" class="validate[required]" value="{{username}}">
+        </div>
+        <div class="section-row">
+            <label>Email</label>
+            <input type="text" name="email" class="validate[required, custom[email]]" value="{{email}}">
+        </div>
+        <div class="section-row">
+            <label>Last Name</label>
+            <input type="text" name="lastName" value="{{lastName}}">
+        </div>
+        <div class="section-row">
+            <label>First Name</label>
+            <input type="text" name="firstName" value="{{firstName}}">
+        </div>
+        <div class="section-row">
+            <label>Phone Num</label>
+            <input type="text" name="phone" value="{{phone}}">
+        </div>
+        <div class="section-row">
+            <a href="javascript:;" class="right btn-update lm-button purple animate">Update</a>
+            <a href="index.html" class="right lm-button gray animate" style="margin-right:10px;">Cancel</a>
+        </div>
+    </div>
+</div>

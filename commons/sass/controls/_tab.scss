@@ -1,0 +1,138 @@
+
+@import "variable";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/user-interface";
+
+.lm-tab {
+    border: none;
+    clear: both;
+
+    &.ui-tabs {
+        padding: 0;
+    }
+
+    .ui-tabs-nav {
+        background: $color-gray8;
+        border: none;
+        padding: 5px 0 0 15px;
+        @include pie-clearfix;
+
+        li {
+            border: solid 1px $color-gray8;
+            border-radius: 4px;
+            background: none;
+            position: relative;
+            height: 36px;
+            line-height: 36px;
+            float: left;
+            top: 1px;
+            margin-right: 3px;
+
+            a {
+                cursor: pointer;
+                border-bottom: none;
+                font-weight: normal;
+                font-size: 20px;
+                color: #333;
+                padding: 2px 15px 0 15px;
+                outline: none;
+                display: block;
+
+                &:hover {
+                    color: #098ccc;
+
+                    span.icons16 {
+                        &.sdt-gray {
+                            background-position: -36px -18px;
+                        }
+                        &.alert-gray {
+                        }
+                    }
+                }
+
+                span.icons16 {
+                    margin-right: 5px;
+                    position: relative;
+                    top: 2px;
+                    margin-left: 4px;
+                }
+            }
+
+            &.ui-tabs-active, &.ui-tabs-active:hover {
+                border: solid 1px #ccc;
+                border-bottom-color: white;
+                background: white;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                height: 38px;
+
+                a {
+                    color: #098ccc;
+
+                    span.icons16 {
+                        &.sdt-gray {
+                            background-position: -36px -18px;
+                        }
+                        &.alert-gray {
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                border: solid 1px #ccc;
+                backgroud: #eee;
+            }
+        }
+    }
+
+    .ui-tabs-panel {
+        border-top: solid 1px #ccc;
+        padding: 10px 15px;
+    }
+
+    &.transparent {
+        background: transparent;
+
+        .ui-tabs-nav {
+            background: transparent;
+        }
+    }
+
+    &.blue {
+        border-radius: 0;
+        background: $color-light-blue;
+        .ui-tabs-nav {
+            background: $color-dark-blue;
+            border-radius: 0;
+
+            li {
+                border-color: $color-dark-blue;
+
+                a {
+                    color: white;
+
+                    &:hover {
+                        color: #333;
+                    }
+                }
+
+                &.ui-tabs-active, &.ui-tabs-active:hover {
+                    background: $color-light-blue;
+                    border-color: $color-light-blue;
+                    a {
+                        color: #333;
+                    }
+                }
+
+                &:hover {
+                    background: $color-light-blue;
+                }
+            }
+        }
+
+        .ui-tabs-panel {
+            border-top: solid 1px $color-dark-blue;
+        }
+    }
+}

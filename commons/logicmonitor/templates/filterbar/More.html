@@ -1,0 +1,42 @@
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-alert-rule" data-filter-name="alert-rule" data-filter-text="" {{#if rule}}checked{{/if}}>
+        <label for="more-alert-rule"></label>
+    </div>
+    <label class="checkbox-label" for="more-alert-rule">Alert Rule</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-escalation-chain" data-filter-name="escalation-chain" data-filter-text="" {{#if chain}}checked{{/if}}>
+        <label for="more-escalation-chain"></label>
+    </div>
+    <label class="checkbox-label" for="more-escalation-chain">Escalation Chain</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-severity" data-filter-name="severity" data-filter-text="" {{#unlessequal severity null}}checked{{/unlessequal}}>
+        <label for="more-severity"></label>
+    </div>
+    <label class="checkbox-label" for="more-severity">Severity</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-acknowledged" data-filter-name="acknowledged" data-filter-text="" {{#ifequal ackFilter "acked"}}checked{{/ifequal}}>
+        <label for="more-acknowledged"></label>
+    </div>
+    <label class="checkbox-label" for="more-acknowledged">Acknowledged</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-sdt" data-filter-name="sdt" data-filter-text="" {{#ifequal sdtFilter "sdt"}}checked{{/ifequal}}>
+        <label for="more-sdt"></label>
+    </div>
+    <label class="checkbox-label" for="more-sdt">In SDT</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="more-cleared" data-filter-name="cleared" data-filter-text="" {{#ifequal clear "clear"}}checked{{/ifequal}}>
+        <label for="more-cleared"></label>
+    </div>
+    <label class="checkbox-label" for="more-cleared">Cleared(last 7 days)</label>
+</div>

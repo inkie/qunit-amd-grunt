@@ -1,0 +1,21 @@
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="{{prefix}}severity-critical" data-filter-name="critical" data-filter-text="critical" {{#ifequal severity "critical"}}checked{{/ifequal}}>
+        <label for="{{prefix}}severity-critical"></label>
+    </div>
+    <label class="checkbox-label"><div style="display: inline-block; vertical-align: middle" class="icons24 alertsCritical"></div>critical</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="{{prefix}}severity-error" data-filter-name="error" data-filter-text="error" {{#ifequal severity "error"}}checked{{/ifequal}}>
+        <label for="{{prefix}}severity-error"></label>
+    </div>
+    <label class="checkbox-label"><div style="display: inline-block; vertical-align: middle" class="icons24 alertsError"></div>error</label>
+</div>
+<div class="filter-row">
+    <div class="styled-checkbox">
+        <input type="checkbox" id="{{prefix}}severity-warn" data-filter-name="warn" data-filter-text="warn" {{#ifequal severity "warn"}}checked{{/ifequal}}>
+        <label for="{{prefix}}severity-warn"></label>
+    </div>
+    <label class="checkbox-label"><div style="display: inline-block; vertical-align: middle" class="icons24 alertsWarning"></div>warning</label>
+</div>

@@ -1,0 +1,2385 @@
+/* line 3, ../sass/icons.scss */
+h1 .iconsWrapper {
+  font-size: 16px;
+}
+
+/* line 7, ../sass/icons.scss */
+table {
+  margin-bottom: 20px;
+}
+
+/* line 11, ../sass/icons.scss */
+.iconsWrapper .sectionTitle {
+  font-size: 25px;
+}
+
+/* line 15, ../sass/icons.scss */
+.purpleBgd span {
+  background-color: #621f71;
+}
+
+/* line 19, ../sass/icons.scss */
+.blueBgd span {
+  background-color: #56b6d9;
+}
+
+/* line 23, ../sass/icons.scss */
+.icons24 {
+  background: url('../images/icons/icons24.png?1421200214');
+  width: 26px;
+  height: 26px;
+  background-size: 416px 260px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  /* line 34, ../sass/icons.scss */
+  .icons24 {
+    background-image: url('../images/icons/icons24@2x.png?1421200214');
+  }
+}
+/* line 39, ../sass/icons.scss */
+.icons16 {
+  background: url('../images/icons/icons16.png?1421200214');
+  width: 18px;
+  height: 18px;
+  background-size: 288px 144px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  /* line 50, ../sass/icons.scss */
+  .icons16 {
+    background-image: url('../images/icons/icons16@2x.png?1421200214');
+  }
+}
+/* line 55, ../sass/icons.scss */
+span.icons24, span.icons16, span.circle20, span.loading, span.loading16, span.errorFigures {
+  display: inline-block;
+  position: relative;
+  line-height: 14px;
+}
+
+/* Hover tooltip  16px */
+/* line 62, ../sass/icons.scss */
+span.icons16:before {
+  padding: 3px 6px;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  box-shadow: 1px 1px 1px #777;
+  color: #fff;
+  opacity: 0;
+  display: none;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  position: absolute;
+  background-color: #5c5c5c;
+  bottom: 0;
+  left: -4px;
+  border-radius: 2px;
+}
+
+/* line 81, ../sass/icons.scss */
+span.icons16:hover:before {
+  display: block;
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  z-index: 1000;
+  bottom: 22px;
+}
+
+/* line 91, ../sass/icons.scss */
+span.icons16:after {
+  display: none;
+  position: absolute;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #5c5c5c;
+  border-bottom: none;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/* line 108, ../sass/icons.scss */
+span.icons16:hover:after {
+  display: block;
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 16px;
+  left: -2px;
+  z-index: 1000;
+}
+
+/* Hover tooltip  24px */
+/* line 120, ../sass/icons.scss */
+span.icons24:before {
+  padding: 3px 6px;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  box-shadow: 1px 1px 1px #777;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  position: absolute;
+  background-color: #5c5c5c;
+  bottom: 0;
+  left: -4px;
+  line-height: 14px;
+  border-radius: 2px;
+  display: none;
+}
+
+/* line 140, ../sass/icons.scss */
+span.icons24:hover:before {
+  display: block;
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 28px;
+  z-index: 1000;
+}
+
+/* line 150, ../sass/icons.scss */
+span.icons24:after {
+  display: none;
+  position: absolute;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #5c5c5c;
+  border-bottom: none;
+  padding: 0;
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  transition: all .2s ease;
+  left: 1px;
+}
+
+/* line 168, ../sass/icons.scss */
+span.icons24:hover:after {
+  display: block;
+  opacity: 1;
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  transition-delay: .2s;
+  bottom: 22px;
+  z-index: 1000;
+}
+
+/* 24px icons */
+/* line 179, ../sass/icons.scss */
+.icons24.handle {
+  width: 22px;
+  height: 22px;
+}
+
+/* line 184, ../sass/icons.scss */
+.styled-select .icons24.handle {
+  background-position: -26px 0;
+}
+
+/* line 188, ../sass/icons.scss */
+.styled-time .icons24.handle {
+  background-position: 0 0;
+}
+
+/* line 192, ../sass/icons.scss */
+.styled-date-range .icons24.handle {
+  background-position: -52px 0;
+}
+
+/* line 196, ../sass/icons.scss */
+.styled-lookup .icons24.handle {
+  background-position: -78px 0;
+}
+
+/* line 200, ../sass/icons.scss */
+.icons24.inlineHelp-gray {
+  background-position: -130px 0;
+}
+
+/* line 204, ../sass/icons.scss */
+.icons24.inlineHelp-green {
+  background-position: -156px 0;
+}
+
+/* line 208, ../sass/icons.scss */
+.icons24.visibility-gray {
+  background-position: -234px 0;
+}
+
+/* line 212, ../sass/icons.scss */
+span.icons24.visibility-gray:before {
+  content: 'Visibility';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 216, ../sass/icons.scss */
+span.icons24.visibility-gray:after {
+  content: '';
+}
+
+/* line 220, ../sass/icons.scss */
+.icons24.advancedSearch-purple {
+  background-position: 0 -26px;
+}
+
+/* line 224, ../sass/icons.scss */
+.icons24.help-gray {
+  background-position: -26px -26px;
+}
+
+/* line 228, ../sass/icons.scss */
+.icons24.dateRange-purple {
+  background-position: -52px -26px;
+}
+
+/* line 232, ../sass/icons.scss */
+.icons24.addDash-purple {
+  background-position: -78px -26px;
+}
+
+/* line 236, ../sass/icons.scss */
+span.icons24.addDash-purple:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 240, ../sass/icons.scss */
+span.icons24.addDash-purple:after {
+  content: '';
+}
+
+/* line 244, ../sass/icons.scss */
+.icons24.sdt-blue {
+  background-position: -104px -26px;
+}
+
+/* line 248, ../sass/icons.scss */
+.icons24.sdt-purple {
+  background-position: -130px -26px;
+}
+
+/* line 252, ../sass/icons.scss */
+.icons24.sdt-gray {
+  background-position: -364px -26px;
+}
+
+/* line 256, ../sass/icons.scss */
+.icons24.services-purple {
+  background-position: 0 -52px;
+}
+
+/* line 260, ../sass/icons.scss */
+.icons24.services-white {
+  background-position: -26px -52px;
+}
+
+/* line 264, ../sass/icons.scss */
+.icons24.services-gray {
+  background-position: -52px -52px;
+}
+
+/* line 268, ../sass/icons.scss */
+.icons24.services-blue {
+  background-position: -78px -52px;
+}
+
+/* line 272, ../sass/icons.scss */
+.icons24.dash-purple {
+  background-position: -104px -52px;
+}
+
+/* line 276, ../sass/icons.scss */
+.icons24.dash-white {
+  background-position: -130px -52px;
+}
+
+/* line 280, ../sass/icons.scss */
+.icons24.dash-gray {
+  background-position: -156px -52px;
+}
+
+/* line 284, ../sass/icons.scss */
+.icons24.dash-blue {
+  background-position: -182px -52px;
+}
+
+/* line 288, ../sass/icons.scss */
+.icons24.hosts-purple {
+  background-position: -208px -52px;
+}
+
+/* line 292, ../sass/icons.scss */
+.icons24.hosts-white {
+  background-position: -234px -52px;
+}
+
+/* line 296, ../sass/icons.scss */
+.icons24.hosts-gray {
+  background-position: -260px -52px;
+}
+
+/* line 300, ../sass/icons.scss */
+.icons24.hosts-blue {
+  background-position: -286px -52px;
+}
+
+/* line 304, ../sass/icons.scss */
+.icons24.alerts-purple {
+  background-position: -312px -52px;
+}
+
+/* line 308, ../sass/icons.scss */
+.icons24.alerts-white {
+  background-position: -338px -52px;
+}
+
+/* line 312, ../sass/icons.scss */
+.icons24.alerts-gray {
+  background-position: -364px -52px;
+}
+
+/* line 316, ../sass/icons.scss */
+.icons24.alerts-blue {
+  background-position: -390px -52px;
+}
+
+/* line 320, ../sass/icons.scss */
+.icons24.report-purple {
+  background-position: 0 -78px;
+}
+
+/* line 324, ../sass/icons.scss */
+.icons24.report-white {
+  background-position: -26px -78px;
+}
+
+/* line 328, ../sass/icons.scss */
+.icons24.report-gray {
+  background-position: -52px -78px;
+}
+
+/* line 332, ../sass/icons.scss */
+.icons24.report-blue {
+  background-position: -78px -78px;
+}
+
+/* line 336, ../sass/icons.scss */
+.icons24.settings-purple {
+  background-position: -104px -78px;
+}
+
+/* line 340, ../sass/icons.scss */
+.icons24.settings-white {
+  background-position: -130px -78px;
+}
+
+/* line 344, ../sass/icons.scss */
+.icons24.settings-gray {
+  background-position: -156px -78px;
+}
+
+/* line 348, ../sass/icons.scss */
+.icons24.settings-blue {
+  background-position: -182px -78px;
+}
+
+/* line 352, ../sass/icons.scss */
+.icons24.serviceGroup-gray {
+  background-position: -208px -78px;
+  width: 32px;
+}
+
+/* line 357, ../sass/icons.scss */
+.icons24.alertsCritical {
+  background-position: 0px -104px;
+}
+
+/* line 361, ../sass/icons.scss */
+.icons24.alertsError {
+  background-position: -26px -104px;
+}
+
+/* line 365, ../sass/icons.scss */
+.icons24.alertsWarning {
+  background-position: -52px -104px;
+}
+
+/* line 369, ../sass/icons.scss */
+.icons24.alertsDisabled {
+  background-position: -78px -104px;
+}
+
+/* line 373, ../sass/icons.scss */
+.icons24.alertsCritical-ack {
+  background-position: -104px -104px;
+}
+
+/* line 377, ../sass/icons.scss */
+.icons24.alertsError-ack {
+  background-position: -130px -104px;
+}
+
+/* line 381, ../sass/icons.scss */
+.icons24.alertsWarning-ack {
+  background-position: -156px -104px;
+}
+
+/* line 385, ../sass/icons.scss */
+.icons24.alertsCriticalSDT {
+  background-position: -182px -104px;
+}
+
+/* line 389, ../sass/icons.scss */
+.icons24.alertsErrorSDT {
+  background-position: -208px -104px;
+}
+
+/* line 393, ../sass/icons.scss */
+.icons24.alertsWarningSDT {
+  background-position: -234px -104px;
+}
+
+/* line 397, ../sass/icons.scss */
+.icons24.alertsCriticalSDT-ack {
+  background-position: -260px -104px;
+}
+
+/* line 401, ../sass/icons.scss */
+.icons24.alertsErrorSDT-ack {
+  background-position: -286px -104px;
+}
+
+/* line 405, ../sass/icons.scss */
+.icons24.alertsWarningSDT-ack {
+  background-position: -312px -104px;
+}
+
+/* line 409, ../sass/icons.scss */
+.icons24.alertsCleared {
+  background-position: -338px -104px;
+}
+
+/* line 413, ../sass/icons.scss */
+.icons24.alertsCritical-down {
+  background-position: 0px -130px;
+}
+
+/* line 417, ../sass/icons.scss */
+.icons24.alertsCritical-up {
+  background-position: -26px -130px;
+}
+
+/* line 421, ../sass/icons.scss */
+.icons24.alertsError-down {
+  background-position: -52px -130px;
+}
+
+/* line 425, ../sass/icons.scss */
+.icons24.alertsError-up {
+  background-position: -78px -130px;
+}
+
+/* line 429, ../sass/icons.scss */
+.icons24.alertsWarning-down {
+  background-position: -104px -130px;
+}
+
+/* line 433, ../sass/icons.scss */
+.icons24.alertsWarning-up {
+  background-position: -130px -130px;
+}
+
+/* line 437, ../sass/icons.scss */
+.icons24.alertsDisabled-down {
+  background-position: -156px -130px;
+}
+
+/* line 441, ../sass/icons.scss */
+.icons24.alertsDisabled-up {
+  background-position: -182px -130px;
+}
+
+/* line 445, ../sass/icons.scss */
+.icons24.alertsCritical-ack-down {
+  background-position: -208px -130px;
+}
+
+/* line 449, ../sass/icons.scss */
+.icons24.alertsCritical-ack-up {
+  background-position: -234px -130px;
+}
+
+/* line 453, ../sass/icons.scss */
+.icons24.alertsError-ack-down {
+  background-position: -260px -130px;
+}
+
+/* line 457, ../sass/icons.scss */
+.icons24.alertsError-ack-up {
+  background-position: -286px -130px;
+}
+
+/* line 461, ../sass/icons.scss */
+.icons24.alertsWarning-ack-down {
+  background-position: -312px -130px;
+}
+
+/* line 465, ../sass/icons.scss */
+.icons24.alertsWarning-ack-up {
+  background-position: -338px -130px;
+}
+
+/* line 469, ../sass/icons.scss */
+.icons24.alertsCriticalSDT-down {
+  background-position: -364px -130px;
+}
+
+/* line 473, ../sass/icons.scss */
+.icons24.alertsCriticalSDT-up {
+  background-position: -390px -130px;
+}
+
+/* line 477, ../sass/icons.scss */
+.icons24.alertsErrorSDT-down {
+  background-position: 0px -156px;
+}
+
+/* line 481, ../sass/icons.scss */
+.icons24.alertsErrorSDT-up {
+  background-position: -26px -156px;
+}
+
+/* line 485, ../sass/icons.scss */
+.icons24.alertsWarningSDT-down {
+  background-position: -52px -156px;
+}
+
+/* line 489, ../sass/icons.scss */
+.icons24.alertsWarningSDT-up {
+  background-position: -78px -156px;
+}
+
+/* line 493, ../sass/icons.scss */
+.icons24.alertsCriticalSDT-ack-down {
+  background-position: -104px -156px;
+}
+
+/* line 497, ../sass/icons.scss */
+.icons24.alertsCriticalSDT-ack-up {
+  background-position: -130px -156px;
+}
+
+/* line 501, ../sass/icons.scss */
+.icons24.alertsErrorSDT-ack-down {
+  background-position: -156px -156px;
+}
+
+/* line 505, ../sass/icons.scss */
+.icons24.alertsErrorSDT-ack-up {
+  background-position: -182px -156px;
+}
+
+/* line 509, ../sass/icons.scss */
+.icons24.alertsWarningSDT-ack-down {
+  background-position: -208px -156px;
+}
+
+/* line 513, ../sass/icons.scss */
+.icons24.alertsWarningSDT-ack-up {
+  background-position: -234px -156px;
+}
+
+/* line 517, ../sass/icons.scss */
+.icons24.alertsCleared-down {
+  background-position: -260px -156px;
+}
+
+/* line 521, ../sass/icons.scss */
+.icons24.alertsCleared-up {
+  background-position: -286px -156px;
+}
+
+/* line 525, ../sass/icons.scss */
+.icons24.alertsColumnHead-desc {
+  background-position: -314px -156px;
+}
+
+/* line 529, ../sass/icons.scss */
+span.icons24.alertsColumnHead-desc:before {
+  content: 'Sort\00a0 Descending';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 533, ../sass/icons.scss */
+span.icons24.alertsColumnHead-desc:after {
+  content: '';
+}
+
+/* line 537, ../sass/icons.scss */
+.icons24.alertsColumnHead-asc {
+  background-position: -340px -156px;
+}
+
+/* line 541, ../sass/icons.scss */
+span.icons24.alertsColumnHead-asc:before {
+  content: 'Sort\00a0 Ascending';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 545, ../sass/icons.scss */
+span.icons24.alertsColumnHead-asc:after {
+  content: '';
+}
+
+/* line 549, ../sass/icons.scss */
+.icons24.dragNDrop {
+  background-position: -156px -26px;
+}
+
+/* line 553, ../sass/icons.scss */
+.icons24.aloneSDT {
+  background-position: -364px -104px;
+}
+
+/* line 557, ../sass/icons.scss */
+.icons24.aloneSDTGray {
+  background-position: -390px -104px;
+}
+
+/* line 561, ../sass/icons.scss */
+.icons24.aloneSDT-down {
+  background-position: -364px -156px;
+}
+
+/* line 565, ../sass/icons.scss */
+.icons24.aloneSDT-up {
+  background-position: -390px -156px;
+}
+
+/* line 569, ../sass/icons.scss */
+.icons24.folderGroup {
+  background-position: -260px 0;
+}
+
+/* line 573, ../sass/icons.scss */
+span.icons24.folderGroup:before {
+  content: 'Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 577, ../sass/icons.scss */
+span.icons24.folderGroup:after {
+  content: '';
+}
+
+/* line 581, ../sass/icons.scss */
+.icons24.downBlack {
+  background-position: -208px 0;
+}
+
+/* line 585, ../sass/icons.scss */
+.icons24.circleCheckmarkWhite {
+  background-position: -182px 0;
+}
+
+/* line 589, ../sass/icons.scss */
+.icons24.circleXWhite {
+  background-position: -286px 0;
+}
+
+/* line 593, ../sass/icons.scss */
+.icons24.circleCheckmarkGray {
+  background-position: -312px 0;
+}
+
+/* line 597, ../sass/icons.scss */
+.icons24.circleXGray {
+  background-position: -338px 0;
+}
+
+/* line 601, ../sass/icons.scss */
+.icons24.downArrowWhite {
+  background-position: -364px 0;
+}
+
+/* line 605, ../sass/icons.scss */
+.icons24.downArrowGray {
+  background-position: -390px 0;
+}
+
+/* line 609, ../sass/icons.scss */
+.icons24.folderGroupLarge {
+  background-position: -182px -26px;
+}
+
+/* line 613, ../sass/icons.scss */
+.icons24.iconGraphWhite {
+  background-position: -208px -26px;
+}
+
+/* line 617, ../sass/icons.scss */
+.icons24.iconGraphGray {
+  background-position: -234px -26px;
+}
+
+/* line 621, ../sass/icons.scss */
+.icons24.iconGraphBlue {
+  background-position: -260px -26px;
+}
+
+/* line 625, ../sass/icons.scss */
+.icons24.alertClusterWhite {
+  background-position: -286px -26px;
+}
+
+/* line 629, ../sass/icons.scss */
+.icons24.alertClusterGray {
+  background-position: -312px -26px;
+}
+
+/* line 633, ../sass/icons.scss */
+.icons24.alertClusterBlue {
+  background-position: -338px -26px;
+}
+
+/* line 637, ../sass/icons.scss */
+.icons24.datasourceGray {
+  background-position: 0px -182px;
+}
+
+/* line 641, ../sass/icons.scss */
+span.icons24.datasourceGray:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 645, ../sass/icons.scss */
+span.icons24.datasourceGray:after {
+  content: '';
+}
+
+/* line 649, ../sass/icons.scss */
+.icons24.datasourceWhite {
+  background-position: -26px -182px;
+}
+
+/* line 653, ../sass/icons.scss */
+span.icons24.datasourceWhite:before {
+  content: 'Datasource';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 657, ../sass/icons.scss */
+span.icons24.datasourceWhite:after {
+  content: '';
+}
+
+/* line 661, ../sass/icons.scss */
+.icons24.datasourceGroupGray {
+  background-position: -52px -182px;
+}
+
+/* line 665, ../sass/icons.scss */
+span.icons24.datasourceGroupGray:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 669, ../sass/icons.scss */
+span.icons24.datasourceGroupGray:after {
+  content: '';
+}
+
+/* line 673, ../sass/icons.scss */
+.icons24.datasourceGroupWhite {
+  background-position: -78px -182px;
+}
+
+/* line 677, ../sass/icons.scss */
+span.icons24.datasourceGroupWhite:before {
+  content: 'Datasource\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 681, ../sass/icons.scss */
+span.icons24.datasourceGroupWhite:after {
+  content: '';
+}
+
+/* line 685, ../sass/icons.scss */
+.icons24.instanceGray {
+  background-position: -104px -182px;
+}
+
+/* line 689, ../sass/icons.scss */
+span.icons24.instanceGray:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 693, ../sass/icons.scss */
+span.icons24.instanceGray:after {
+  content: '';
+}
+
+/* line 697, ../sass/icons.scss */
+.icons24.instanceWhite {
+  background-position: -130px -182px;
+}
+
+/* line 701, ../sass/icons.scss */
+span.icons24.instanceWhite:before {
+  content: 'Instance';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 705, ../sass/icons.scss */
+span.icons24.instanceWhite:after {
+  content: '';
+}
+
+/* line 709, ../sass/icons.scss */
+.icons24.instanceGroupGray {
+  background-position: -156px -182px;
+}
+
+/* line 713, ../sass/icons.scss */
+span.icons24.instanceGroupGray:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 717, ../sass/icons.scss */
+span.icons24.instanceGroupGray:after {
+  content: '';
+}
+
+/* line 721, ../sass/icons.scss */
+.icons24.instanceGroupWhite {
+  background-position: -182px -182px;
+}
+
+/* line 725, ../sass/icons.scss */
+span.icons24.instanceGroupWhite:before {
+  content: 'Instance\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 729, ../sass/icons.scss */
+span.icons24.instanceGroupWhite:after {
+  content: '';
+}
+
+/* line 733, ../sass/icons.scss */
+.icons24.datapointGray {
+  background-position: -208px -182px;
+}
+
+/* line 737, ../sass/icons.scss */
+span.icons24.datapointGray:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 741, ../sass/icons.scss */
+span.icons24.datapointGray:after {
+  content: '';
+}
+
+/* line 745, ../sass/icons.scss */
+.icons24.datapointWhite {
+  background-position: -234px -182px;
+}
+
+/* line 749, ../sass/icons.scss */
+span.icons24.datapointWhite:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 753, ../sass/icons.scss */
+span.icons24.datapointWhite:after {
+  content: ' ';
+}
+
+/* line 757, ../sass/icons.scss */
+.icons24.datapointGroupGray {
+  background-position: -260px -182px;
+}
+
+/* line 761, ../sass/icons.scss */
+span.icons24.datapointGroupGray:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 765, ../sass/icons.scss */
+span.icons24.datapointGroupGray:after {
+  content: '';
+}
+
+/* line 769, ../sass/icons.scss */
+.icons24.datapointGroupWhite {
+  background-position: -286px -182px;
+}
+
+/* line 773, ../sass/icons.scss */
+span.icons24.datapointGroupWhite:before {
+  content: 'Datapoint\00a0 Group';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 777, ../sass/icons.scss */
+span.icons24.datapointGroupWhite:after {
+  content: '';
+}
+
+/* line 781, ../sass/icons.scss */
+.icons24.datapointBlue {
+  background-position: -312px -182px;
+}
+
+/* line 785, ../sass/icons.scss */
+span.icons24.datapointBlue:before {
+  content: 'Datapoint';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 789, ../sass/icons.scss */
+span.icons24.datapointBlue:after {
+  content: '';
+}
+
+/* line 793, ../sass/icons.scss */
+.icons24.netscanGray {
+  background-position: -286px -78px;
+}
+
+/* line 797, ../sass/icons.scss */
+.icons24.netscanWhite {
+  background-position: -260px -78px;
+}
+
+/* line 801, ../sass/icons.scss */
+.icons24.platformWindowsGray {
+  background-position: -338px -78px;
+}
+
+/* line 805, ../sass/icons.scss */
+.icons24.platformWindowsWhite {
+  background-position: -312px -78px;
+}
+
+/* line 809, ../sass/icons.scss */
+.icons24.platformLinuxGray {
+  background-position: -390px -78px;
+}
+
+/* line 813, ../sass/icons.scss */
+.icons24.platformLinuxWhite {
+  background-position: -364px -78px;
+}
+
+/* line 817, ../sass/icons.scss */
+.icons24.logWhite {
+  background-position: 0px -208px;
+}
+
+/* line 821, ../sass/icons.scss */
+.icons24.logGray {
+  background-position: -26px -208px;
+}
+
+/* line 825, ../sass/icons.scss */
+.icons24.upArrowWhite {
+  background-position: -390px -26px;
+}
+
+/* line 829, ../sass/icons.scss */
+.icons24.arrowFlipPurple {
+  background-position: -52px -208px;
+}
+
+/* line 833, ../sass/icons.scss */
+span.icons24.arrowFlipPurple:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 837, ../sass/icons.scss */
+span.icons24.arrowFlipPurple:after {
+  content: '';
+}
+
+/* line 841, ../sass/icons.scss */
+.icons24.arrowFlipWhite {
+  background-position: -78px -208px;
+}
+
+/* line 845, ../sass/icons.scss */
+span.icons24.arrowFlipWhite:before {
+  content: 'Flip\00a0 Over';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 849, ../sass/icons.scss */
+span.icons24.arrowFlipWhite:after {
+  content: '';
+}
+
+/* line 853, ../sass/icons.scss */
+.icons24.emailGray {
+  background-position: -104px -208px;
+}
+
+/* line 857, ../sass/icons.scss */
+span.icons24.emailGray:before {
+  content: 'Email';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 861, ../sass/icons.scss */
+span.icons24.emailGray:after {
+  content: '';
+}
+
+/* line 865, ../sass/icons.scss */
+.icons24.emailWhite {
+  background-position: -130px -208px;
+}
+
+/* line 869, ../sass/icons.scss */
+span.icons24.emailWhite:before {
+  content: 'Email';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 873, ../sass/icons.scss */
+span.icons24.emailWhite:after {
+  content: '';
+}
+
+/* line 877, ../sass/icons.scss */
+.icons24.SMSGray {
+  background-position: -156px -208px;
+}
+
+/* line 881, ../sass/icons.scss */
+span.icons24.SMSGray:before {
+  content: 'SMS\00a0 Message';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 885, ../sass/icons.scss */
+span.icons24.SMSGray:after {
+  content: '';
+}
+
+/* line 889, ../sass/icons.scss */
+.icons24.SMSWhite {
+  background-position: -182px -208px;
+}
+
+/* line 893, ../sass/icons.scss */
+span.icons24.SMSWhite:before {
+  content: 'SMS\00a0 Message';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 897, ../sass/icons.scss */
+span.icons24.SMSWhite:after {
+  content: '';
+}
+
+/* line 901, ../sass/icons.scss */
+.icons24.phoneGray {
+  background-position: -208px -208px;
+}
+
+/* line 905, ../sass/icons.scss */
+span.icons24.phoneGray:before {
+  content: 'Phone\00a0 Call';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 909, ../sass/icons.scss */
+span.icons24.phoneGray:after {
+  content: '';
+}
+
+/* line 913, ../sass/icons.scss */
+.icons24.phoneWhite {
+  background-position: -234px -208px;
+}
+
+/* line 917, ../sass/icons.scss */
+span.icons24.phoneWhite:before {
+  content: 'Phone\00a0 Call';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 921, ../sass/icons.scss */
+span.icons24.phoneWhite:after {
+  content: '';
+}
+
+/* line 925, ../sass/icons.scss */
+.icons24.collectorGray {
+  background-position: -338px -182px;
+}
+
+/* line 929, ../sass/icons.scss */
+.icons24.collectorWhite {
+  background-position: -364px -182px;
+}
+
+/* line 933, ../sass/icons.scss */
+.icons24.collectorPurple {
+  background-position: -390px -182px;
+}
+
+/* line 937, ../sass/icons.scss */
+.icons24.clouddeviceGray {
+  background-position: -260px -208px;
+}
+
+/* line 941, ../sass/icons.scss */
+.icons24.clouddeviceWhite {
+  background-position: -286px -208px;
+}
+
+/* line 945, ../sass/icons.scss */
+.icons24.clouddevicePurple {
+  background-position: -312px -208px;
+}
+
+/* line 949, ../sass/icons.scss */
+.icons24.clouddeviceBlue {
+  background-position: -338px -208px;
+}
+
+/* line 953, ../sass/icons.scss */
+.icons24.boldBlack {
+  background-position: 0px -234px;
+}
+
+/* line 957, ../sass/icons.scss */
+.icons24.italicBlack {
+  background-position: -26px -234px;
+}
+
+/* line 961, ../sass/icons.scss */
+.icons24.unorderedlistBlack {
+  background-position: -52px -234px;
+}
+
+/* line 965, ../sass/icons.scss */
+.icons24.orderedlistBlack {
+  background-position: -78px -234px;
+}
+
+/* line 969, ../sass/icons.scss */
+.icons24.linkBlack {
+  background-position: -104px -234px;
+}
+
+/* line 973, ../sass/icons.scss */
+.icons24.H1Black {
+  background-position: -130px -234px;
+}
+
+/* line 977, ../sass/icons.scss */
+.icons24.H2Black {
+  background-position: -156px -234px;
+}
+
+/* line 981, ../sass/icons.scss */
+.icons24.imageBlack {
+  background-position: -182px -234px;
+}
+
+/* line 985, ../sass/icons.scss */
+.icons24.showHTMLBlack {
+  background-position: -208px -234px;
+}
+
+/* line 989, ../sass/icons.scss */
+.icons24.colorBlack {
+  background-position: -234px -234px;
+}
+
+/* line 993, ../sass/icons.scss */
+.icons24.childArrowWhite {
+  background-position: -286px -234px;
+}
+
+/* line 997, ../sass/icons.scss */
+.icons24.childArrowBlue {
+  background-position: -312px -234px;
+}
+
+/* line 1001, ../sass/icons.scss */
+.icons24.childArrowGray {
+  background-position: -260px -234px;
+}
+
+/* 16px icons */
+/* line 1006, ../sass/icons.scss */
+.icons16.graph-blue {
+  background-position: 0 0;
+  width: 27px;
+}
+
+/* line 1011, ../sass/icons.scss */
+.icons16.table-blue {
+  background-position: -36px 0;
+}
+
+/* line 1015, ../sass/icons.scss */
+.icons16.clone-gray {
+  background-position: -54px 0;
+}
+
+/* line 1019, ../sass/icons.scss */
+.icons16.clone-purple {
+  background-position: -216px 0;
+}
+
+/* line 1023, ../sass/icons.scss */
+.icons16.edit-purple {
+  background-position: -72px 0;
+}
+
+/* line 1027, ../sass/icons.scss */
+span.icons16.edit-purple:before {
+  content: 'Edit';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1031, ../sass/icons.scss */
+span.icons16.edit-purple:after {
+  content: '';
+}
+
+/* line 1035, ../sass/icons.scss */
+.icons16.delete-purple {
+  background-position: -90px 0;
+}
+
+/* line 1039, ../sass/icons.scss */
+span.icons16.delete-purple:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1043, ../sass/icons.scss */
+span.icons16.delete-purple:after {
+  content: '';
+}
+
+/* line 1047, ../sass/icons.scss */
+.icons16.delete-gray {
+  background-position: -252px 0;
+}
+
+/* line 1051, ../sass/icons.scss */
+span.icons16.delete-gray:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1055, ../sass/icons.scss */
+span.icons16.delete-gray:after {
+  content: '';
+}
+
+/* line 1059, ../sass/icons.scss */
+.icons16.delete-white {
+  background-position: -270px 0;
+}
+
+/* line 1063, ../sass/icons.scss */
+span.icons16.delete-white:before {
+  content: 'Delete';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1067, ../sass/icons.scss */
+span.icons16.delete-white:after {
+  content: '';
+}
+
+/* line 1071, ../sass/icons.scss */
+.icons16.date-gray-small {
+  background-position: -108px 0;
+}
+
+/* line 1075, ../sass/icons.scss */
+.icons16.date-white-small {
+  background-position: -90px -72px;
+}
+
+/* line 1079, ../sass/icons.scss */
+.icons16.closeDialog-gray {
+  background-position: -126px 0;
+}
+
+/* line 1083, ../sass/icons.scss */
+span.icons16.closeDialog-gray:before {
+  content: 'Close\00a0 Dialog';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1087, ../sass/icons.scss */
+span.icons16.closeDialog-gray:after {
+  content: '';
+}
+
+/* line 1091, ../sass/icons.scss */
+.icons16.dragVertical-gray {
+  background-position: -144px 0;
+}
+
+/* line 1095, ../sass/icons.scss */
+.icons16.check-white-small {
+  background-position: -162px 0;
+}
+
+/* line 1099, ../sass/icons.scss */
+.icons16.tableSettings-gray {
+  background-position: -180px 0;
+}
+
+/* line 1103, ../sass/icons.scss */
+.icons16.search-gray {
+  background-position: -198px 0;
+}
+
+/* line 1107, ../sass/icons.scss */
+span.icons16.search-gray:before {
+  content: 'Search';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1111, ../sass/icons.scss */
+span.icons16.search-gray:after {
+  content: '';
+}
+
+/* line 1115, ../sass/icons.scss */
+.icons16.sdt-white {
+  background-position: 0 -18px;
+}
+
+/* line 1119, ../sass/icons.scss */
+.icons16.sdt-red {
+  background-position: -18px -18px;
+}
+
+/* line 1123, ../sass/icons.scss */
+.icons16.sdt-blue {
+  background-position: -36px -18px;
+}
+
+/* line 1127, ../sass/icons.scss */
+.icons16.sdt-gray {
+  background-position: -54px -18px;
+}
+
+/* line 1131, ../sass/icons.scss */
+.icons16.alert-acked {
+  background-position: -72px -18px;
+}
+
+/* line 1135, ../sass/icons.scss */
+.icons16.alert-red {
+  background-position: -90px -18px;
+}
+
+/* line 1139, ../sass/icons.scss */
+.icons16.alert-gray {
+  background-position: -108px -18px;
+}
+
+/* line 1143, ../sass/icons.scss */
+.icons16.alert-blue {
+  background-position: -252px -36px;
+}
+
+/* line 1147, ../sass/icons.scss */
+.icons16.services-gray {
+  background-position: -126px -18px;
+}
+
+/* line 1151, ../sass/icons.scss */
+.icons16.download-gray {
+  background-position: -72px -90px;
+  width: 26px;
+}
+
+/* line 1156, ../sass/icons.scss */
+.icons16.download-white {
+  background-position: -144px -18px;
+  width: 26px;
+}
+
+/* line 1161, ../sass/icons.scss */
+.icons16.upload-gray {
+  background-position: -72px -18px;
+  width: 26px;
+}
+
+/* line 1166, ../sass/icons.scss */
+.icons16.upload-white {
+  background-position: -36px -90px;
+  width: 26px;
+}
+
+/* line 1171, ../sass/icons.scss */
+.icons16.goTo-gray {
+  background-position: -180px -18px;
+}
+
+/* line 1175, ../sass/icons.scss */
+span.icons16.goTo-gray:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1179, ../sass/icons.scss */
+span.icons16.goTo-gray:after {
+  content: '';
+}
+
+/* line 1183, ../sass/icons.scss */
+.icons16.goTo-purple {
+  background-position: -198px -18px;
+}
+
+/* line 1187, ../sass/icons.scss */
+span.icons16.goTo-purple:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1191, ../sass/icons.scss */
+span.icons16.goTo-purple:after {
+  content: '';
+}
+
+/* line 1195, ../sass/icons.scss */
+.icons16.goTo-white {
+  background-position: -216px -18px;
+}
+
+/* line 1199, ../sass/icons.scss */
+span.icons16.goTo-white:before {
+  content: 'Go\00a0 to\00a0 Device';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1203, ../sass/icons.scss */
+span.icons16.goTo-white:after {
+  content: '';
+}
+
+/* line 1207, ../sass/icons.scss */
+.icons16.visibility-gray {
+  background-position: -234px -18px;
+}
+
+/* line 1211, ../sass/icons.scss */
+span.icons16.visibility-gray:before {
+  content: 'Visibility';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1215, ../sass/icons.scss */
+span.icons16.visibility-gray:after {
+  content: '';
+}
+
+/* line 1219, ../sass/icons.scss */
+.icons16.addToDash-purple {
+  background-position: -252px -18px;
+}
+
+/* line 1223, ../sass/icons.scss */
+span.icons16.addToDash-purple:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1227, ../sass/icons.scss */
+span.icons16.addToDash-purple:after {
+  content: '';
+}
+
+/* line 1231, ../sass/icons.scss */
+.icons16.addToDash-gray {
+  background-position: -234px -90px;
+}
+
+/* line 1235, ../sass/icons.scss */
+span.icons16.addToDash-gray:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1239, ../sass/icons.scss */
+span.icons16.addToDash-gray:after {
+  content: '';
+}
+
+/* line 1243, ../sass/icons.scss */
+.icons16.addToDash-white {
+  background-position: -252px -90px;
+}
+
+/* line 1247, ../sass/icons.scss */
+span.icons16.addToDash-white:before {
+  content: 'Add\00a0 to\00a0 Dashboard';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1251, ../sass/icons.scss */
+span.icons16.addToDash-white:after {
+  content: '';
+}
+
+/* line 1255, ../sass/icons.scss */
+.icons16.dashboards-gray {
+  background-position: -270px -18px;
+}
+
+/* line 1259, ../sass/icons.scss */
+.icons16.zoom-ltPurple {
+  background-position: 0 -36px;
+}
+
+/* line 1263, ../sass/icons.scss */
+span.icons16.zoom-ltPurple:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1267, ../sass/icons.scss */
+span.icons16.zoom-ltPurple:after {
+  content: '';
+}
+
+/* line 1271, ../sass/icons.scss */
+.icons16.config-ltPurple {
+  background-position: -18px -36px;
+}
+
+/* line 1275, ../sass/icons.scss */
+span.icons16.config-ltPurple:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1279, ../sass/icons.scss */
+span.icons16.config-ltPurple:after {
+  content: '';
+}
+
+/* line 1283, ../sass/icons.scss */
+.icons16.zoom-purple {
+  background-position: -36px -36px;
+}
+
+/* line 1287, ../sass/icons.scss */
+span.icons16.zoom-purple:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1291, ../sass/icons.scss */
+span.icons16.zoom-purple:after {
+  content: '';
+}
+
+/* line 1295, ../sass/icons.scss */
+.icons16.config-purple {
+  background-position: -54px -36px;
+}
+
+/* line 1299, ../sass/icons.scss */
+span.icons16.config-purple:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1303, ../sass/icons.scss */
+span.icons16.config-purple:after {
+  content: '';
+}
+
+/* line 1307, ../sass/icons.scss */
+.icons16.zoom-ltBlue {
+  background-position: -72px -36px;
+}
+
+/* line 1311, ../sass/icons.scss */
+span.icons16.zoom-ltBlue:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1315, ../sass/icons.scss */
+span.icons16.zoom-ltBlue:after {
+  content: '';
+}
+
+/* line 1319, ../sass/icons.scss */
+.icons16.config-ltBlue {
+  background-position: -90px -36px;
+}
+
+/* line 1323, ../sass/icons.scss */
+span.icons16.config-ltBlue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1327, ../sass/icons.scss */
+span.icons16.config-ltBlue:after {
+  content: '';
+}
+
+/* line 1331, ../sass/icons.scss */
+.icons16.zoom-blue {
+  background-position: -108px -36px;
+}
+
+/* line 1335, ../sass/icons.scss */
+span.icons16.zoom-blue:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1339, ../sass/icons.scss */
+span.icons16.zoom-blue:after {
+  content: '';
+}
+
+/* line 1343, ../sass/icons.scss */
+.icons16.config-blue {
+  background-position: -126px -36px;
+}
+
+/* line 1347, ../sass/icons.scss */
+span.icons16.config-blue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1351, ../sass/icons.scss */
+span.icons16.config-blue:after {
+  content: '';
+}
+
+/* line 1355, ../sass/icons.scss */
+.icons16.zoom-gray {
+  background-position: -144px -36px;
+}
+
+/* line 1359, ../sass/icons.scss */
+span.icons16.zoom-gray:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1363, ../sass/icons.scss */
+span.icons16.zoom-gray:after {
+  content: '';
+}
+
+/* line 1367, ../sass/icons.scss */
+.icons16.config-gray {
+  background-position: -162px -36px;
+}
+
+/* line 1371, ../sass/icons.scss */
+span.icons16.config-gray:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1375, ../sass/icons.scss */
+span.icons16.config-gray:after {
+  content: '';
+}
+
+/* line 1379, ../sass/icons.scss */
+.icons16.zoom-ltGray {
+  background-position: -180px -36px;
+}
+
+/* line 1383, ../sass/icons.scss */
+span.icons16.zoom-ltGray:before {
+  content: 'Enlarge\00a0 Widget';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1387, ../sass/icons.scss */
+span.icons16.zoom-ltGray:after {
+  content: '';
+}
+
+/* line 1391, ../sass/icons.scss */
+.icons16.config-ltGray {
+  background-position: -198px -36px;
+}
+
+/* line 1395, ../sass/icons.scss */
+span.icons16.config-ltGray:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1399, ../sass/icons.scss */
+span.icons16.config-ltGray:after {
+  content: '';
+}
+
+/* line 1403, ../sass/icons.scss */
+.icons16.config-dkBlue {
+  background-position: -216px -36px;
+}
+
+/* line 1407, ../sass/icons.scss */
+span.icons16.config-dkBlue:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1411, ../sass/icons.scss */
+span.icons16.config-dkBlue:after {
+  content: '';
+}
+
+/* line 1415, ../sass/icons.scss */
+.icons16.config-white {
+  background-position: -234px -36px;
+}
+
+/* line 1419, ../sass/icons.scss */
+span.icons16.config-white:before {
+  content: 'Manage';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1423, ../sass/icons.scss */
+span.icons16.config-white:after {
+  content: '';
+}
+
+/* line 1427, ../sass/icons.scss */
+.icons16.expand-left {
+  background-position: 0 -54px;
+}
+
+/* line 1431, ../sass/icons.scss */
+span.icons16.expand-left:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1435, ../sass/icons.scss */
+span.icons16.expand-left:after {
+  content: '';
+}
+
+/* line 1439, ../sass/icons.scss */
+.icons16.expand-right {
+  background-position: -18px -54px;
+}
+
+/* line 1443, ../sass/icons.scss */
+span.icons16.expand-right:before {
+  content: 'Open';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1447, ../sass/icons.scss */
+span.icons16.expand-right:after {
+  content: '';
+}
+
+/* line 1451, ../sass/icons.scss */
+.icons16.expand-up {
+  background-position: -36px -54px;
+}
+
+/* line 1455, ../sass/icons.scss */
+.icons16.expand-down {
+  background-position: -54px -54px;
+}
+
+/* line 1459, ../sass/icons.scss */
+.icons16.page-right {
+  background-position: -72px -54px;
+  width: 26px;
+}
+
+/* line 1464, ../sass/icons.scss */
+.icons16.page-left {
+  background-position: -108px -54px;
+  width: 26px;
+}
+
+/* line 1469, ../sass/icons.scss */
+.icons16.sectionArrow-purple {
+  background-position: -144px -54px;
+  width: 28px;
+}
+
+/* line 1474, ../sass/icons.scss */
+.icons16.sectionArrow-blue {
+  background-position: -180px -54px;
+  width: 28px;
+}
+
+/* line 1479, ../sass/icons.scss */
+.icons16.slideshow-blue {
+  background-position: -216px -54px;
+}
+
+/* line 1483, ../sass/icons.scss */
+span.icons16.slideshow-blue:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1487, ../sass/icons.scss */
+span.icons16.slideshow-blue:after {
+  content: '';
+}
+
+/* line 1491, ../sass/icons.scss */
+.icons16.slideshow-gray {
+  background-position: -234px -54px;
+}
+
+/* line 1495, ../sass/icons.scss */
+span.icons16.slideshow-gray:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1499, ../sass/icons.scss */
+span.icons16.slideshow-gray:after {
+  content: '';
+}
+
+/* line 1503, ../sass/icons.scss */
+.icons16.slideshow-white {
+  background-position: -216px -72px;
+}
+
+/* line 1507, ../sass/icons.scss */
+span.icons16.slideshow-white:before {
+  content: 'Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1511, ../sass/icons.scss */
+span.icons16.slideshow-white:after {
+  content: '';
+}
+
+/* line 1515, ../sass/icons.scss */
+.icons16.slideshowStop-blue {
+  background-position: -252px -54px;
+}
+
+/* line 1519, ../sass/icons.scss */
+span.icons16.slideshowStop-blue:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1523, ../sass/icons.scss */
+span.icons16.slideshowStop-blue:after {
+  content: '';
+}
+
+/* line 1527, ../sass/icons.scss */
+.icons16.slideshowStop-gray {
+  background-position: -252px -72px;
+}
+
+/* line 1531, ../sass/icons.scss */
+span.icons16.slideshowStop-gray:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1535, ../sass/icons.scss */
+span.icons16.slideshowStop-gray:after {
+  content: '';
+}
+
+/* line 1539, ../sass/icons.scss */
+.icons16.slideshowStop-white {
+  background-position: -234px -72px;
+}
+
+/* line 1543, ../sass/icons.scss */
+span.icons16.slideshowStop-white:before {
+  content: 'Stop\00a0 Slideshow';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1547, ../sass/icons.scss */
+span.icons16.slideshowStop-white:after {
+  content: '';
+}
+
+/* line 1551, ../sass/icons.scss */
+.icons16.fullScreen-gray {
+  background-position: -270px -54px;
+}
+
+/* line 1555, ../sass/icons.scss */
+span.icons16.fullScreen-gray:before {
+  content: 'Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1559, ../sass/icons.scss */
+span.icons16.fullScreen-gray:after {
+  content: '';
+}
+
+/* line 1563, ../sass/icons.scss */
+.icons16.fullScreenClose-gray {
+  background-position: -270px -72px;
+}
+
+/* line 1567, ../sass/icons.scss */
+span.icons16.fullScreenClose-gray:before {
+  content: 'Close\00a0 Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1571, ../sass/icons.scss */
+span.icons16.fullScreenClose-gray:after {
+  content: '';
+}
+
+/* line 1575, ../sass/icons.scss */
+.icons16.fullScreen-white {
+  background-position: -270px -90px;
+}
+
+/* line 1579, ../sass/icons.scss */
+span.icons16.fullScreen-white:before {
+  content: 'Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1583, ../sass/icons.scss */
+span.icons16.fullScreen-white:after {
+  content: '';
+}
+
+/* line 1587, ../sass/icons.scss */
+.icons16.fullScreenClose-white {
+  background-position: -270px -108px;
+}
+
+/* line 1591, ../sass/icons.scss */
+span.icons16.fullScreenClose-white:before {
+  content: 'Close\00a0 Fullscreen';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1595, ../sass/icons.scss */
+span.icons16.fullScreenClose-white:after {
+  content: '';
+}
+
+/* line 1599, ../sass/icons.scss */
+.icons16.dead-black {
+  background-position: -0px -72px;
+}
+
+/* line 1603, ../sass/icons.scss */
+.icons16.collectorUnreachable-gray {
+  background-position: -18px -72px;
+}
+
+/* line 1607, ../sass/icons.scss */
+.icons16.opsNote-gray {
+  background-position: -36px -72px;
+}
+
+/* line 1611, ../sass/icons.scss */
+.icons16.opsNote-purple {
+  background-position: -126px -72px;
+}
+
+/* line 1615, ../sass/icons.scss */
+.icons16.opsNote-white {
+  background-position: -54px -72px;
+}
+
+/* line 1619, ../sass/icons.scss */
+.icons16.check-gray {
+  background-position: -72px -72px;
+}
+
+/* line 1623, ../sass/icons.scss */
+.icons16.check-white-ack {
+  background-position: -108px -72px;
+}
+
+/* line 1627, ../sass/icons.scss */
+.icons16.favoritesStar {
+  background-position: -144px -72px;
+}
+
+/* line 1631, ../sass/icons.scss */
+.icons16.favoritesStar-white {
+  background-position: -144px -90px;
+}
+
+/* line 1635, ../sass/icons.scss */
+.icons16.plusAdd {
+  background-position: -180px -72px;
+}
+
+/* line 1639, ../sass/icons.scss */
+.icons16.plusAdd-gray {
+  background-position: -198px -72px;
+}
+
+/* line 1643, ../sass/icons.scss */
+.icons16.legendOpenClose {
+  background-position: -234px 0;
+}
+
+/* line 1647, ../sass/icons.scss */
+.icons16.gray-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 5.5px 0 5.5px;
+  border-color: #5c5c5c transparent transparent transparent;
+  display: inline-block;
+  background: none;
+}
+
+/* line 1657, ../sass/icons.scss */
+.icons16.homeWhite {
+  background-position: -270px -36px;
+}
+
+/* line 1661, ../sass/icons.scss */
+span.icons16.homeWhite:before {
+  content: 'Return\00a0 to\00a0 the\00a0 top';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1665, ../sass/icons.scss */
+span.icons16.homeWhite:after {
+  content: '';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1669, ../sass/icons.scss */
+.icons16.downArrow-white {
+  background-position: -162px -72px;
+}
+
+/* line 1673, ../sass/icons.scss */
+.icons16.roundCancel-white {
+  background-position: 0 -90px;
+}
+
+/* line 1677, ../sass/icons.scss */
+span.icons16.roundCancel-white:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1681, ../sass/icons.scss */
+span.icons16.roundCancel-white:after {
+  content: '';
+}
+
+/* line 1685, ../sass/icons.scss */
+.icons16.roundCancel-gray {
+  background-position: -18px -90px;
+}
+
+/* line 1689, ../sass/icons.scss */
+span.icons16.roundCancel-gray:before {
+  content: 'Close';
+  /* important: you have to add the unicode escape for every space */
+}
+
+/* line 1693, ../sass/icons.scss */
+span.icons16.roundCancel-gray:after {
+  content: '';
+}
+
+/* line 1697, ../sass/icons.scss */
+.icons16.device-gray {
+  background-position: -108px -90px;
+}
+
+/* line 1701, ../sass/icons.scss */
+.icons16.device-white {
+  background-position: -126px -90px;
+}
+
+/* line 1705, ../sass/icons.scss */
+.icons16.device-purple {
+  background-position: -108px -108px;
+}
+
+/* line 1709, ../sass/icons.scss */
+.icons16.device-blue {
+  background-position: -126px -108px;
+}
+
+/* line 1713, ../sass/icons.scss */
+.icons16.log-gray {
+  background-position: -162px -90px;
+}
+
+/* line 1717, ../sass/icons.scss */
+.icons16.log-white {
+  background-position: -180px -90px;
+}
+
+/* line 1721, ../sass/icons.scss */
+.icons16.netscan-gray {
+  background-position: -198px -90px;
+}
+
+/* line 1725, ../sass/icons.scss */
+.icons16.netscan-white {
+  background-position: -216px -90px;
+}
+
+/* line 1729, ../sass/icons.scss */
+.icons16.clouddeviceGray {
+  background-position: 0 -108px;
+}
+
+/* line 1733, ../sass/icons.scss */
+.icons16.clouddeviceWhite {
+  background-position: -18px -108px;
+}
+
+/* line 1737, ../sass/icons.scss */
+.icons16.clouddevicePurple {
+  background-position: -36px -108px;
+}
+
+/* line 1741, ../sass/icons.scss */
+.icons16.clouddeviceBlue {
+  background-position: 0 -126px;
+}
+
+/* line 1745, ../sass/icons.scss */
+.icons16.applicationGray {
+  background-position: -54px -108px;
+}
+
+/* line 1749, ../sass/icons.scss */
+.icons16.applicationWhite {
+  background-position: -72px -108px;
+}
+
+/* line 1753, ../sass/icons.scss */
+.icons16.applicationPurple {
+  background-position: -90px -108px;
+}
+
+/* line 1757, ../sass/icons.scss */
+.icons16.deviceTreeBlue {
+  background-position: -144px -108px;
+}
+
+/* line 1761, ../sass/icons.scss */
+.icons16.deviceTreeWhite {
+  background-position: -162px -108px;
+}
+
+/* line 1765, ../sass/icons.scss */
+.icons16.deviceTreeGray {
+  background-position: -180px -108px;
+}
+
+/* alert status circles */
+/* line 1770, ../sass/icons.scss */
+.circle20 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* line 1776, ../sass/icons.scss */
+.circle20.multi {
+  width: 30px;
+  border-radius: 0;
+  position: relative;
+}
+
+/* line 1782, ../sass/icons.scss */
+.circle20.multi .circle20 {
+  display: block;
+  float: left;
+}
+
+/* line 1787, ../sass/icons.scss */
+.circle20.multi .circle20:last-child {
+  border: 2px solid white;
+  margin-top: -2px;
+  margin-left: -14px;
+}
+
+/* line 1793, ../sass/icons.scss */
+.circle20.critical {
+  background: #ea262b;
+}
+
+/* line 1797, ../sass/icons.scss */
+.circle20.error {
+  background: #fbac2d;
+}
+
+/* line 1801, ../sass/icons.scss */
+.circle20.warning {
+  background: #777777;
+}
+
+/* line 1805, ../sass/icons.scss */
+.circle20.acknowledged {
+  background: #1d9fcb;
+}
+
+/* line 1809, ../sass/icons.scss */
+.circle20.spacer {
+  background: #ffffff;
+}
+
+/* Loading Icons */
+/* line 1814, ../sass/icons.scss */
+.loading {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 1820, ../sass/icons.scss */
+.loadingGray {
+  background: url('../images/icons/loading-gray.gif?1421200214');
+}
+
+/* line 1824, ../sass/icons.scss */
+.loadingWhite-onpurple {
+  background: url('../images/icons/loading-white-onpurple.gif?1421200214');
+}
+
+/* line 1828, ../sass/icons.scss */
+.loadingWhite-onblue {
+  background: url('../images/icons/loading-white-onblue.gif?1421200214');
+}
+
+/* line 1832, ../sass/icons.scss */
+.loading16 {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 1837, ../sass/icons.scss */
+.loadingGray16 {
+  background: url('../images/icons/loading-gray16.gif?1421200214');
+}
+
+/* line 1841, ../sass/icons.scss */
+.loadingWhite-onpurple16 {
+  background: url('../images/icons/loading-white-onpurple16.gif?1421200214');
+}
+
+/* line 1845, ../sass/icons.scss */
+.loadingWhite-onblue16 {
+  background: url('../images/icons/loading-white-onblue16.gif?1421200214');
+}
+
+/* Error Images */
+/* line 1850, ../sass/icons.scss */
+.errorFigures {
+  background: url('../images/icons/error-stickfigures.png?1421200214');
+  width: 160px;
+  height: 160px;
+  background-size: 466px 326px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  /* line 1861, ../sass/icons.scss */
+  .errorFigures {
+    background-image: url('../images/icons/error-stickfigures@2x.png?1421200214');
+  }
+}
+/* line 1866, ../sass/icons.scss */
+.errorFiguresGeneralBlue {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+/* line 1871, ../sass/icons.scss */
+.errorFiguresJediBlue {
+  background-position: -324px 0;
+  background-repeat: no-repeat;
+}
+
+/* line 1876, ../sass/icons.scss */
+.errorFiguresEmptyBlue {
+  background-position: -161px 0;
+  background-repeat: no-repeat;
+}
+
+/* line 1881, ../sass/icons.scss */
+.errorFiguresGeneralWhite {
+  background-position: 0 -163px;
+  background-repeat: no-repeat;
+}
+
+/* line 1886, ../sass/icons.scss */
+.errorFiguresJediWhite {
+  background-position: -324px -163px;
+  background-repeat: no-repeat;
+}
+
+/* line 1891, ../sass/icons.scss */
+.errorFiguresEmptyWhite {
+  background-position: -161px -163px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,13 @@
+<thead>
+    <tr>
+        <th class="col-id">ID</th>
+        <th class="col-name">Name</th>
+        <th class="col-description">Description</th>
+        <th class="col-datasource">Datasource</th>
+    </tr>
+</thead>
+<tbody>
+    {{#each this}}
+        {{> demo/MyCriteriaTableRow}}
+    {{/each}}
+</tbody>

@@ -1,0 +1,46 @@
+@import "variable";
+
+table.action-row-table {
+    width: 100%;
+    margin-bottom: 0;
+
+    tbody {
+        border: 0;
+        th, td {
+            line-height: 24px;
+            border: 0;
+            padding: 5px 0;
+        }
+
+        tr {
+            border-bottom: 1px solid $color-dark-gray;
+
+            &:nth-last-of-type(2) {
+                border-bottom: none;
+            }
+
+            &.action-row {
+                border-top: 1px dashed #333;
+                border-bottom: none;
+
+                .action-item {
+                    padding-right: 30px;
+
+                    * {
+                        vertical-align: middle;
+                    }
+
+                    a {
+                        color: black;
+                        border:none;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

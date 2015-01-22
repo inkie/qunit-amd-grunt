@@ -1,0 +1,52 @@
+<div class="fashion-tree-head">
+    <div class="breadcrumb">
+        <div class="breadcrumb-home arrow-box active  {{#ifequal nodeType 'root'}}only-home{{/ifequal}}" data-node-type="root" data-id="{{id}}">
+            <span class="icons16 homeWhite"></span>
+        </div>
+        <div class="breadcrumb-rollup arrow-box" {{#lessThan ancestorsLength 2}}style="display: none;"{{/lessThan}}>
+            <span  class="number">{{subtract ancestorsLength 1}}</span>
+            <span class="icons16 downArrow-white"></span>
+        </div>
+        <div class="rollup-dropdown" style="display: none;">
+            <ul>
+                {{#each ancestralFolders}}
+                    {{#unlessequal @index 0}}
+                    <li data-id="{{id}}" data-node-type="folder">{{name}}</li>
+                    {{/unlessequal}}
+                {{/each}}
+            </ul>
+        </div>
+        <div class="breadcrumb-item" data-id="{{id}}" data-name="{{name}}" data-node-type="folder">
+            <span>{{#unlessequal nodeType 'root'}}{{name}}{{/unlessequal}}</span>
+        </div>
+    </div>
+</div>
+<div class="fashion-tree-body">
+    <div class="breadcrumb-bars" style="width: {{multiply 6 ancestorsLength}}px;">
+        {{#each ancestralFolders}}
+            <div data-index="{{@index}}"  class="breadcrumb-bar" data-node-type="folder" style="background-color: rgb({{getColorOfRegion @index ../ancestorsLength 0 200}})"></div>
+        {{/each}}
+    </div>
+    <div class="tree-list">
+        <ul>
+            {{#each nodes}}
+            <li class="{{nodeType}}" data-name="{{name}}" data-id="{{id}}" data-node-type="{{nodeType}}" data-data-type="{{dataType}}"
+                style="padding-left:{{multiply 6 (plus ../ancestorsLength 1)  }}px;" title="{{name}}">
+                {{#if icons.left}}
+                <span class="{{icons.left}}"></span>
+                {{/if}}
+                <span class="node-name">{{name}}</span>
+                {{#if icons.middle}}
+                <span class="{{icons.middle}}"></span>
+                {{/if}}
+            </li>
+            {{/each}}
+            {{#ifEmptyArray nodes}}
+                <li class="empty">
+                    <span>Empty Group</span>
+                </li>
+            {{/ifEmptyArray}}
+        </ul>
+    </div>
+</div>
+<div class="position-locate"></div>
