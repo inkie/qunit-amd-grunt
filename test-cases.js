@@ -3,13 +3,13 @@
  */
 
 (function($) {
-console.log('\nInject Test case');
+// console.log('\nInject Test case');
 
 test("title id", function() {
-  console.log('\n Testing');
+  // console.log('\n Testing');
   expect(1);
   equal(1,1);
 });
-console.log('\nTest case Injected');
+// console.log('\nTest case Injected');
 
 })(jQuery);

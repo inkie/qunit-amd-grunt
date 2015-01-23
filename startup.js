@@ -2170,13 +2170,6 @@ require.config({
 		'firebase': {
 			exports: 'Firebase'
 		}
-       //  'QUnit': {
-       //     exports: 'QUnit',
-       //     init: function() {
-       //         QUnit.config.autoload = false;
-       //         QUnit.config.autostart = false;
-       //     }
-       // } 
 	},
 	map: {
 		'*': {
@@ -2187,29 +2180,16 @@ require.config({
 
 
 require(["main"]);
-// setTimeout(function(){
-//     QUnit.load();
-//     QUnit.start();
-// }, 1000);
+
 QUnit.test('test demo', function(){
     expect(1);
     QUnit.equal(1,1);
 });
-
-// asyncTest( "assert.async() test", function() {
-//     expect( 1 );
-//     $( "#dialog1" ).dialog({ hide: "clip" }).dialog( "close" ).dialog( "destroy" );
-//     setTimeout(function() {
-//         equal( $( ".ui-effects-wrapper" ).length, 0 );
-//         start();
-//     }, 500);
-// });
 
 QUnit.asyncTest( "assert.async() test", function( assert ) {
     expect(1);
     setTimeout(function(){
         QUnit.equal(1,1);
         QUnit.start();
-        
-    }, 3000);   
+    }, 4000);   
 });

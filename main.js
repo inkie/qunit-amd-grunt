@@ -31,12 +31,23 @@ define([
   // 'jq-validationEngine-en'
 ], function (_, B2, $, Handlebars, LM, utils, MessageBox) {
   //require business js code begin
-  MessageBox.alert('Title', 'success');
-  
-  QUnit.asyncTest( "assert.async() test2", function( assert ) {
-    console.log('\n' + $('.head-title-txt').text());
-    QUnit.equal($('.head-title-txt').text(),2);
+
+  QUnit.asyncTest( "MessageBox should show correct content", function( assert ) {
+    var testTitle = 'title123456';
+    MessageBox.alert('content', testTitle);
+
+    QUnit.equal($('.head-title-txt').text(), testTitle);
     QUnit.start();
+  });
+
+  QUnit.asyncTest( "MessageBox prompt should return corret input", function( assert ) {
+    var testValue = 'input xxx';
+    MessageBox.prompt('hello, world', function (value) {
+        QUnit.equal(value, testValue);
+        QUnit.start();
+      }, 'Custom title', 'test value');
+    $('.prompt-value').val(testValue);
+    $('.btn-submit').click();
   });
 
   //require business js code end
