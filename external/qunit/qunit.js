@@ -266,6 +266,7 @@ extend( QUnit, {
 	// DEPRECATED: The functionality of QUnit.start() will be altered in QUnit 2.0.
 	// In QUnit 2.0, invoking it will ONLY affect the `QUnit.config.autostart` blocking behavior.
 	start: function( count ) {
+		console.log('qunit started');
 		var globalStartAlreadyCalled = globalStartCalled;
 
 		if ( !config.current ) {
@@ -311,6 +312,7 @@ extend( QUnit, {
 
 	// DEPRECATED: QUnit.stop() will be removed in QUnit 2.0.
 	stop: function( count ) {
+		console.log('qunit stop');
 
 		// If there isn't a test running, don't allow QUnit.stop() to be called
 		if ( !config.current ) {
@@ -366,6 +368,7 @@ extend( QUnit, {
 	extend: extend,
 
 	load: function() {
+		console.log('qunit load');
 		config.pageLoaded = true;
 
 		// Initialize the configuration options

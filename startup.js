@@ -2171,11 +2171,11 @@ require.config({
 			exports: 'Firebase'
 		},
         'QUnit': {
-           exports: 'QUnit'
-           // init: function() {
-           //     QUnit.config.autoload = false;
-           //     QUnit.config.autostart = false;
-           // }
+           exports: 'QUnit',
+           init: function() {
+               QUnit.config.autoload = false;
+               QUnit.config.autostart = false;
+           }
        } 
 	},
 	map: {
@@ -2187,6 +2187,10 @@ require.config({
 
 
 require(["main"]);
+// setTimeout(function(){
+//     QUnit.load();
+//     QUnit.start();
+// }, 1000);
 
 // QUnit.asyncTest( "assert.async() test", function( assert ) {
 //     // expect(1);
