@@ -2146,7 +2146,9 @@ require.config({
 		'lmautocompletedropdown': 'commons/logicmonitor/controls/filterbar/AutoCompleteDropDown',
 		'lmblockui': 'commons/logicmonitor/controls/BlockUI',
 		'lmdatepicker': 'commons/3rdparty/jquery-ui/jquery-ui-timepicker-addon',
-		'lmtimepicker': 'commons/3rdparty/jquery-ui/jquery.timepickr'
+		'lmtimepicker': 'commons/3rdparty/jquery-ui/jquery.timepickr',
+
+        'QUnit': 'external/qunit/qunit'
 	},
 	shim: {
         'handlebars': {
@@ -2167,7 +2169,14 @@ require.config({
 		},
 		'firebase': {
 			exports: 'Firebase'
-		}
+		},
+        'QUnit': {
+           exports: 'QUnit'
+           // init: function() {
+           //     QUnit.config.autoload = false;
+           //     QUnit.config.autostart = false;
+           // }
+       } 
 	},
 	map: {
 		'*': {
@@ -2178,3 +2187,14 @@ require.config({
 
 
 require(["main"]);
+
+// QUnit.asyncTest( "assert.async() test", function( assert ) {
+//     // expect(1);
+//     assertDone = assert.async();
+//     setTimeout(function(){
+//         QUnit.equal(1,1);
+//         QUnit.start();
+//         assertDone();
+        
+//     }, 500);   
+// });

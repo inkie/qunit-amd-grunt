@@ -1,4 +1,5 @@
 define([
+	'QUnit',
 	'lodash',
 	'b2',
 	'jquery',
@@ -29,55 +30,31 @@ define([
 	'lmradiodropdown',
 	'lmautocompletedropdown',
 	'jq-validationEngine-en'
-], function (_, B2, $, Handlebars, LM, utils, TopNavBarView, BlockUI) {
-	//require business js code begin
-	var page = /\/([^\/]*?)\.html/.exec(window.location.pathname);
+], function (QUnit, _, B2, $, Handlebars, LM, utils, TopNavBarView, BlockUI) {
+	$('h1').text('Log Test');
+	console.log('\nTest begin');
 
-	if (!page || !page[1]) {
-		page = ['', 'index'];
-	}
-
-	page = page[1];
-
-	var blockUI = new BlockUI();
-
-	blockUI.block();
-
-	var loginUser = LM.getLoginUser();
-
-	if (loginUser) {
-		if (page == 'signup' || page == 'login') {
-			if (history.pushState) {
-				history.pushState({}, null, 'index.html');
-				utils.removeCssFile('commons/css/' + page + '.css');
-				page = 'index';
-				utils.loadCssFile('commons/css/index.css');
-			} else {
-				location.href = 'index.html';
-				return;
-			}
-		}
-	} else if (page != 'login' && page != 'password' && page != 'signup') {
-		if (history.pushState) {
-			history.pushState({}, null, 'signup.html');
-			utils.removeCssFile('commons/css/' + page + '.css');
-			page = 'signup';
-			utils.loadCssFile('commons/css/signup.css');
-		} else {
-			location.href = 'signup.html';
-			return;
-		}
-	}
-
-	// initialize the header view
-	$('.header-con').append(new TopNavBarView({
-		user: loginUser
-	}).el);
-
-	// we must use 'switchToPath/index' here for requirejs build optimization
-	require([page + '/index'], function () {
-		blockUI.unBlock();
-
+	test("title id", function(){
+		expect(1);
+	  equal(1,1);
+	  console.log('\n Test on')
 	});
+	QUnit.load();
+	QUnit.start();
+
+	// QUnit.test("title id", function() {
+	// 	console.log('hehe')
+
+	//   expect(1);
+	//   // var title = 'Test MessageBox Title';
+	//   // MessageBox.alert('Test MessageBox Title', 'success');
+	//   QUnit.equal(1,2);
+	// 	console.log('\nTest on');
+	// 	done();
+		
+	//   // equal($('.head-title-txt'.text(), title);
+
+	// });
+	console.log('\nTest end');
 	//require business js code end
 });
