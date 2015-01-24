@@ -2181,11 +2181,6 @@ require.config({
 
 require(["main"]);
 
-QUnit.test('test demo', function(){
-    expect(1);
-    QUnit.equal(1,1);
-});
-
 QUnit.asyncTest( "assert.async() test", function( assert ) {
     expect(1);
     setTimeout(function(){
